@@ -102,3 +102,54 @@ h1{
 #cont_2 a{
     font-weight: 600;
 }
+
+/* SECTION3 */
+#cont_3{
+    text-align: center;
+}
+#cont_3> .container > p{
+    color: #586686;
+    font-size: 1.3rem;
+}
+
+.quality_box{
+    padding-left: 15px;
+    border-left: 1px solid #CDCDCD;
+    text-align: left;
+    line-height: 45px;
+}
+.quality_box > a{
+   color: #7C879F;
+   font-weight: 100;
+   font-size: 1.1rem;
+}
+.card_cont3{
+    text-align: left;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.card_cont3>h5{
+    font-size: 1.1rem;
+}
+
+.carousel_img{
+    width: 550px;
+    height:400px;
+}
+
+.carousel_img_box>i{
+    margin: 0 20px;
+    font-size: 3rem;
+}
+.fa-angle-left{
+    color:#6F7B97 ;
+}
+.carousel_span{
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.carousel_circle{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,39 @@
+/* font styles */
+body{
+    font-family:'Inter-Medium','Helvetica','san-serif';
+}
+
+
+/* list style none */
+ul>li{
+    list-style: none;
+}
+ul>li>a{
+    color: #031C4E;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+/* flex styles */
+.flex_jc_sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_ai_cent{
+    align-items: center;
+    display: flex;
+}
+
+/* vertical padding container */
+.vp15{
+    padding: 15px 0;
+}
+
+/* buttons */
+.btn{
+    padding: 0.5rem 0.5rem;
+    border-radius:5px ;
+}

@@ -1,0 +1,14 @@
+/* navbar */
+
+.logo{
+    width: 100%;
+}
+ul>li>a>i{
+    position: relative;
+    top:10%
+}
+
+.btn_signup{
+    color:#579AFF;
+    border: 3px solid #579AFF;
+}

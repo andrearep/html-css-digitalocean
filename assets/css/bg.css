@@ -4,11 +4,17 @@
 .bg_blue{
     background-color: #004AFF;
 }
+.bg_litegrey{
+    background-color: #F3F5F9 ;
+}
 
 /* color font */
 .dark_blue{
     color: #031C4E;
 }
-.light_blue{
+.blue{
     color: #026BFF;
+}
+.lite_blue{
+    color: #1877FF;
 }

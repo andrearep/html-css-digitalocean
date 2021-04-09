@@ -1,3 +1,9 @@
+/* clearfix */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* font styles */
 body{
     font-family:'Inter-Medium','Helvetica','san-serif';
@@ -21,6 +27,9 @@ a{
 
 
 /* flex styles */
+.flex{
+    display: flex;
+}
 .flex_jc_sb{
     display: flex;
     justify-content: space-between;
@@ -42,6 +51,13 @@ a{
     padding: 70px 0;
 }
 
+/* margin bottom */
+.mb30{
+    margin-bottom: 30px;
+}
+.mb40{
+    margin-bottom: 40px;
+}
 /* buttons */
 .btn{
     padding: 0.5rem 0.5rem;

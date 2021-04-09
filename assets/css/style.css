@@ -83,3 +83,22 @@ h1{
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+#cont_2{
+    text-align: center;
+}
+.logos_img{
+    width: 200px;  
+    margin-right: 20px;
+}
+.logos_img:last-child{
+    margin-right: 0;
+}
+
+#cont_2 h4{
+    color: #8891A9;
+}
+#cont_2 a{
+    font-weight: 600;
+}

@@ -31,6 +31,12 @@ ul>li>a{
 .vp15{
     padding: 15px 0;
 }
+.vp25{
+    padding: 40px 0;
+}
+.vp70{
+    padding: 70px 0;
+}
 
 /* buttons */
 .btn{

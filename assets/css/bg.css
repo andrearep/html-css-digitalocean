@@ -1,3 +1,14 @@
 .bg_white{
     background-color: white;
 }
+.bg_blue{
+    background-color: #004AFF;
+}
+
+/* color font */
+.dark_blue{
+    color: #031C4E;
+}
+.light_blue{
+    color: #026BFF;
+}

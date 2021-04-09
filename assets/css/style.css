@@ -10,5 +10,35 @@ ul>li>a>i{
 
 .btn_signup{
     color:#579AFF;
-    border: 3px solid #579AFF;
+    border: 2px solid #579AFF;
+}
+
+/* signup section */
+.bg_image{
+    background-image: url(../../digital_ocean/img/bg-banner-home.jpg);
+    background-size: 105%;
+    background-position: 75% 120%;
+    
+}
+.signup_section{
+    color: white;
+}
+
+h1{
+    font-size: 3.6rem;
+    margin-bottom: 10px;
+}
+
+.main_p{
+    width: 90%;
+    line-height: 1.8rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #B9CCFF;
+}
+
+.signup_form{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
 }

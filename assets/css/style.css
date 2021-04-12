@@ -14,14 +14,17 @@ ul>li>a>i{
     color:#579AFF;
     border: 2px solid #579AFF;
 }
+#menu_bar{
+    display: none;
+}
 
 /*++++++++++++++++ 
     section 1 
 ++++++++++++++++++*/
 .bg_image{
-    background-image: url(../../digital_ocean/img/bg-banner-home.jpg);
-    background-size: 110%;
-    background-position: 55% 120%;
+    background-image: url(../../img/bg-banner-home.jpg);
+    background-size: 115%;
+    background-position: 40% 10%;
     
 }
 .signup_section{
@@ -100,7 +103,7 @@ h1{
     text-align: center;
 }
 .logos_img{
-    width: 200px;  
+    width: 15%; 
     margin-right: 20px;
 }
 .logos_img:last-child{
@@ -116,9 +119,7 @@ h1{
 /*++++++++++++++++ 
     section 3 
 ++++++++++++++++++*/
-#cont_3{
-    text-align: center;
-}
+
 #cont_3> .container > p{
     color: #586686;
     font-size: 1.3rem;
@@ -139,6 +140,7 @@ h1{
     text-align: left;
     height: 160px;
     margin-bottom: 15px;
+    padding-right: 10px;
 }
 
 .card_cont3>h5{
@@ -152,7 +154,7 @@ h1{
     text-align: center;
 }
 .carousel_img{
-    width: 550px;
+    width: 60%;
     height:350px;
 }
 
@@ -219,7 +221,7 @@ h1{
     section 7
 ++++++++++++++++++*/
 .carousel_img_2{
-    width: 550px;
+    width: 60%;
     height:350px;
 }
 .carousel_img_2 *{

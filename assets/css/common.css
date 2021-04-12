@@ -4,6 +4,7 @@
     display: table;
     clear: both;
 }
+
 /* font styles */
 body{
     font-family:'Inter-Medium','Helvetica','san-serif';
@@ -56,14 +57,17 @@ a{
     align-items: center;
     display: flex;
 }
+
 /* display */
 .block{
     display: block;
 }
+
 /* padding */
 .p10{
     padding: 10px;
 }
+
 /* vertical padding container */
 .vp10{
     padding: 5px 0;
@@ -81,6 +85,7 @@ a{
 .tp70{
     padding-top: 70px;
 }
+
 /* margin bottom */
 .mb10{
     margin-bottom: 10px;

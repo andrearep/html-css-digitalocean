@@ -1,0 +1,25 @@
+a:hover{
+    color:#19AFCA;
+    text-decoration: underline;
+}
+.social_logos>a>i:hover{
+    color:#19AFCA;
+    text-decoration: none;
+}
+.social_logos>a:hover{
+    text-decoration: none;
+}
+.btn_signup:hover, .btn_create_account:hover{
+    box-shadow: 1px 1px 3px grey;
+    color: white;
+    background-color: #19AFCA ;
+    text-decoration: none;
+}
+.btn_register:hover{
+    box-shadow: 1px 1px 3px grey;
+    color:  #579AFF;
+    background-color:  white;
+}
+.btn_google:hover{
+    box-shadow: 2px 2px 1px black, -1px -1px grey;
+}

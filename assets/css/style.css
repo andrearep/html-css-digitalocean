@@ -143,12 +143,12 @@ h1{
 /*++++++++++++++++ 
     section 4 
 ++++++++++++++++++*/
-#cont_4{
+.carousel{
     text-align: center;
 }
 .carousel_img{
     width: 550px;
-    height:400px;
+    height:350px;
 }
 
 .carousel_img_box>i{
@@ -189,3 +189,50 @@ h1{
 /*++++++++++++++++ 
     section 6
 ++++++++++++++++++*/
+
+.testspeed_row{
+    border-bottom: 1px solid white;   
+}
+.state_abbrev{
+    font-size: 0.75rem;
+}
+.state_speed{
+    font-size: 0.70rem;
+}
+.testspeed_row >a{
+    float: right;
+    font-size: 0.75rem;
+}
+.left_col{
+    padding-right: 20px;
+}
+.right_col{
+    padding-left: 20px;
+}
+
+/*++++++++++++++++ 
+    section 7
+++++++++++++++++++*/
+.carousel_img_2{
+    width: 550px;
+    height:350px;
+}
+.carousel_img_2 *{
+    display: block;
+}
+.carousel_img_2>img{
+    display: inline-block;
+    width: 55%;
+}
+.p_carousel{
+    font-size: 1.3rem;
+}
+/*++++++++++++++++ 
+    section 8
+++++++++++++++++++*/
+
+.btn_create_account{
+    color:#3086FF;
+    background-color: white;
+    padding:0.75rem 1rem;
+}

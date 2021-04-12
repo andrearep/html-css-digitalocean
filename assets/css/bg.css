@@ -10,6 +10,9 @@
 .bg_gradient_blue{
     background: linear-gradient(180deg, #0047C5 0%, #001F9A 100%); ;
 }
+.bg_darkblue{
+    background-color:#1C3360 ;
+}
 
 /* color font */
 .dark_blue{
@@ -21,6 +24,18 @@
 .lite_blue{
     color: #1877FF;
 }
+.litelite_blue{
+    color: #19AFCA;
+}
 .circle_blue{
     color: #006AFF;
+}
+.white{
+    color: white;
+}
+.grey{
+    color: #B8C2E2;
+}
+.dark_grey{
+    color: #7C879F;
 }

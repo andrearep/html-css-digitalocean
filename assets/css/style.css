@@ -1,4 +1,6 @@
-/* navbar */
+/*++++++++++++++++ 
+    Navbar
+++++++++++++++++++*/
 
 .logo{
     width: 100%;
@@ -13,7 +15,9 @@ ul>li>a>i{
     border: 2px solid #579AFF;
 }
 
-/* signup section */
+/*++++++++++++++++ 
+    section 1 
+++++++++++++++++++*/
 .bg_image{
     background-image: url(../../digital_ocean/img/bg-banner-home.jpg);
     background-size: 110%;
@@ -84,7 +88,9 @@ h1{
     font-weight: bold;
 }
 
-
+/*++++++++++++++++ 
+    section 2 
+++++++++++++++++++*/
 #cont_2{
     text-align: center;
 }
@@ -99,11 +105,12 @@ h1{
 #cont_2 h4{
     color: #8891A9;
 }
-#cont_2 a{
-    font-weight: 600;
-}
 
-/* SECTION3 */
+
+
+/*++++++++++++++++ 
+    section 3 
+++++++++++++++++++*/
 #cont_3{
     text-align: center;
 }
@@ -133,6 +140,12 @@ h1{
     font-size: 1.1rem;
 }
 
+/*++++++++++++++++ 
+    section 4 
+++++++++++++++++++*/
+#cont_4{
+    text-align: center;
+}
 .carousel_img{
     width: 550px;
     height:400px;
@@ -153,3 +166,26 @@ h1{
 .carousel_circle{
     font-size: 0.7rem;
 }
+/*++++++++++++++++ 
+    section 5 
+++++++++++++++++++*/
+
+.features > *{
+    margin-bottom: 10px;
+}
+.features{
+    padding-right: 20px;
+}
+.features>h5{
+    font-size: 1.2rem;
+}
+.features>p{
+    font-size: 0.95rem;
+}
+.features>a{
+    font-size: 0.90rem;
+}
+
+/*++++++++++++++++ 
+    section 6
+++++++++++++++++++*/

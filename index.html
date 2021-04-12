@@ -21,12 +21,15 @@
 <body>
 
     <header>
-        <div class="bg_white">
+        <!-- ++++++++
+            NAVBAR
+         ++++++++++-->
+        <nav class="bg_white">
             <div class="container vp15">
                 <div class="row flex_ai_cent">
                     <!-- logo -->
                     <div class="col-2">
-                        <img class="logo" src="./digital_ocean/img/logo.png" alt="logo ocean">
+                        <img class="logo" src="./img/logo.png" alt="logo ocean">
                     </div>
                     <!-- menubar1 -->
                     <div class="col-4 col-offset-1">
@@ -48,9 +51,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="bg_blue bg_image">
+        </nav>
+        <!-- ++++++++
+            JUMBOTRON
+         ++++++++++-->
+        <section class="bg_blue bg_image">
             <div class="container signup_section vp70">
                 <div class="row">
                     <div class="col-7">
@@ -80,26 +85,32 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     </header>
 
     <main>
-        <div id="cont_2" class="bg_litegrey">
+        <!-- ++++++++
+        SEZIONE LOGHI
+         ++++++++++-->
+        <section id="cont_2" class="bg_litegrey">
             <div class="container vp40">
                 <h4 class="mb20" ">INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h4>
                 <!-- loghi -->
                 <div class=" row flex mb20">
-                    <img class="logos_img" src="./digital_ocean/img/logos/docker.svg" alt="">
-                    <img class="logos_img" src="./digital_ocean/img/logos/gitlab.svg" alt="">
-                    <img class="logos_img" src="./digital_ocean/img/logos/slack.svg" alt="">
-                    <img class="logos_img" src="./digital_ocean/img/logos/hashicorp.svg" alt="">
-                    <img class="logos_img" src="./digital_ocean/img/logos/hashicorp.svg" alt="">
-                    <img class="logos_img" src="./digital_ocean/img/logos/splunk.svg" alt="">
+                    <img class="logos_img" src="./img/logos/docker.svg" alt="">
+                    <img class="logos_img" src="./img/logos/gitlab.svg" alt="">
+                    <img class="logos_img" src="./img/logos/slack.svg" alt="">
+                    <img class="logos_img" src="./img/logos/hashicorp.svg" alt="">
+                    <img class="logos_img" src="./img/logos/hashicorp.svg" alt="">
+                    <img class="logos_img" src="./img/logos/splunk.svg" alt="">
             </div>
-            <a href="" class="lite_blue">View customer stories ></a>
-        </div>
+            <a href="" class="lite_blue bold">View customer stories ></a>
+            </div>
 
-        <div id="cont_3" class=" bg_white">
+        </section>
+
+        <section id="cont_3" class=" bg_white">
             <div class="container vp70">
                 <h3 class="title_section mb10">Deploy and scale seamlessly</h3>
                 <p class="p_section">
@@ -107,7 +118,8 @@
                     applications, AI & machine learning workloads, hosted services, client websites, or CI/CD
                     enviroments.
                 </p>
-                <div class="row vp70">
+                <!-- menu di sinistra -->
+                <div class="row tp70">
                     <div class="col-1 col-offset-1 quality_box">
                         <a href="">Deploy</a>
                         <a href="">Manage</a>
@@ -115,27 +127,29 @@
                         <a href="">Scale</a>
                         <a href="">Monitor</a>
                     </div>
+                    <!-- schede di destra -->
                     <div class="col-7 col-offset-2">
                         <div class="row">
                             <div class="col-6 card_cont3">
-                                <img class="mb10" src="./digital_ocean/img/section3/cluster-deploy.svg" alt="">
+                                <img class="mb10" src="./img/section3/cluster-deploy.svg" alt="">
                                 <h5 class="mb10">Cluster deployments</h5>
                                 <p>
-                                    Provision multiple Droplets (virtual machines) in seconds with our control panel,
+                                    Provision multiple Droplets (virtual machines) in seconds with our control
+                                    panel,
                                     CLI,
                                     or directly against our API.
                                 </p>
                             </div>
 
                             <div class="col-6 card_cont3" class="card_cont3">
-                                <img class="mb10" src="./digital_ocean/img/section3/optimized-compute.svg" alt="">
+                                <img class="mb10" src="./img/section3/optimized-compute.svg" alt="">
                                 <h5 class="mb10">Optimized compute types</h5>
                                 <p>
                                     Get the compute resources you need with Standard or optimized Droplets.
                                 </p>
                             </div>
                             <div class="col-6 card_cont3">
-                                <img class="mb10" src="./digital_ocean/img/section3/one-click.svg" alt="">
+                                <img class="mb10" src="./img/section3/one-click.svg" alt="">
                                 <h5 class="mb10">One-click apps</h5>
                                 <p>
                                     Skip the install and configuration process with pre-buils open source images
@@ -144,7 +158,7 @@
                             </div>
 
                             <div class="col-6 card_cont3" class="card_cont3">
-                                <img class="mb10" src="./digital_ocean/img/section3/global.svg" alt="">
+                                <img class="mb10" src="./img/section3/global.svg" alt="">
                                 <h5 class="mb10">Global availability</h5>
                                 <p>
                                     Deploy to any of our data center regions around the world.
@@ -154,20 +168,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="cont_4" class="bg_litegrey">
+        <section id="cont_4" class="bg_litegrey">
             <div class="container carousel vp70">
                 <h3 class="title_section mb10">Designed for developers</h3>
                 <p class="p_section mb80">Build More and spend less time managing you infrastructure with our
                     easy-to-use
                     control panel and API.</p>
-                <div class="carousel_img_box flex_center mb40">
+                <div class="carousel_img_box flex_center mb30">
                     <i class="fas fa-angle-left"></i>
-                    <img class="carousel_img" src="./digital_ocean/img/slide.jpg" alt="">
+                    <img class="carousel_img" src="./img/slide.jpg" alt="">
                     <i class="fas fa-angle-right"></i>
                 </div>
-                <span class="carousel_span mb20">create compute servers in 55 secods or less.</span>
+                <span class="carousel_span mb10">create compute servers in 55 secods or less.</span>
                 <span class="carousel_circle circle_blue">
                     <i class="fas fa-circle"></i>
                     <i class="far fa-circle"></i>
@@ -176,8 +190,54 @@
 
                 </span>
             </div>
-        </div>
+        </section>
 
+        <!-- section 5  Features-->
+        <section id="cont_5" class="bg_white">
+            <div class="container vp70">
+                <h3 class="title_section mb40">The features your business needs</h3>
+                <div class="row">
+
+                    <!-- feature 1 -->
+                    <div class="col-4 features">
+                        <img src="./img/pred-pricing.svg" alt="">
+                        <h5 class="dark_blue">predictable pricing</h5>
+                        <p>
+                            Leave complete pricing structures behind. Always know what you'll pay per month with a flat,
+                            industry leading pricing structure.
+                        </p>
+                        <a class="lite_blue bold" href="">Security> </a>
+                    </div>
+
+                    <!-- feature 2 -->
+                    <div class="col-4 features">
+                        <img src="./img/world-class.svg" alt="">
+                        <h5 class="dark_blue">World-class service</h5>
+                        <p>
+                            Free round the-clock technical support for all customers. You'll feel the love.
+                        </p>
+                        <a class="lite_blue bold" href="">Support> </a>
+                    </div>
+
+                    <!-- feature 3 -->
+                    <div class="col-4 features">
+                        <img src="./img/reliable-platform.svg" alt="">
+                        <h5 class="dark_blue">Reliable platform</h5>
+                        <p>
+                            More than 100.000 developer teams worldwide trust DigitalOcean to support their business
+                            with a 99,99% uptime SLA for all service.
+                        </p>
+                        <a class="lite_blue bold" href="">Security> </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- section   Speed Test-->
+        <section id="cont_5" class="bg_gradient_blue">
+            <div class="container">
+
+            </div>
+        </section>
     </main>
 
 </body>

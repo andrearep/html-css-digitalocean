@@ -11,7 +11,7 @@
     background: linear-gradient(180deg, #0047C5 0%, #001F9A 100%); ;
 }
 .bg_darkblue{
-    background-color:#1C3360 ;
+    background-color:#031C4E ;
 }
 
 /* color font */
@@ -38,4 +38,7 @@
 }
 .dark_grey{
     color: #7C879F;
+}
+.lite_grey{
+    color: #9BA4B6;
 }

@@ -71,6 +71,11 @@ h1{
     font-weight: bold;
     margin-bottom: 10px;
 }
+.google_icon{
+    height: 15px;
+    position: relative;
+    left:-30%
+}
 .btn_register{
     background-color: #579AFF;
     color: white;
@@ -235,4 +240,31 @@ h1{
     color:#3086FF;
     background-color: white;
     padding:0.75rem 1rem;
+}
+
+/* FOOTER */
+footer .col-4{
+    margin-top: -20px;
+}
+
+footer .col-8>.col-3 a.lite_grey{
+    
+    font-size: 0.9rem;
+}
+footer .col-8>.col-3 a{
+    padding-bottom: 10px;
+    display: block;
+}
+
+.small_logo{
+    max-width: 50px;
+}
+.social_logos>a>i{
+    margin-right: 10px;
+    font-size: 1.4rem;
+    color:#7C879F;
+}
+.made_in{
+    color: #526181;
+    font-size: 0.9rem;
 }

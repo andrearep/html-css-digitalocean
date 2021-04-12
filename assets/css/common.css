@@ -43,7 +43,10 @@ a{
     justify-content: center;
     align-items: center;
 }
-
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
 .flex_jc_sb{
     display: flex;
     justify-content: space-between;
